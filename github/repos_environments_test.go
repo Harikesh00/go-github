@@ -240,6 +240,7 @@ func TestRepositoriesService_DeleteEnvironment(t *testing.T) {
 }
 
 func TestRepoEnvironment_Marshal(t *testing.T) {
+
 	testJSONMarshal(t, &EnvResponse{}, "{}")
 
 	repoEnv := &EnvResponse{
